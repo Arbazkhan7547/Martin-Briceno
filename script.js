@@ -167,8 +167,8 @@ function scrollTrigger(){
 
 gsap.to("#part2 #h1s h1,#part2 #h5 h5",{
     scrollTrigger:{
+        scroller:"body",
         trigger:"#part2",
-       scroller:"body",
        start:"top 50%",
     },
     y:0,
