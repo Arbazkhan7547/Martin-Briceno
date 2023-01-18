@@ -19,6 +19,11 @@
     font-weight:  300;
 }
 @font-face{
+  font-family:Almarena Display,Almarena;
+  src: url("./621a35b27f3078178900f91e_Almarena\ -\ Almarena\ Display\ Light.ttf");
+  font-weight: 100;
+}
+@font-face{
     font-family:Almarena Display,Almarena;
     src: url("./621a35b27f3078178900f91e_Almarena\ -\ Almarena\ Display\ Light.ttf");
     font-weight:  200;
@@ -87,6 +92,8 @@ html,body{
     width: 100%;
     /* position: relative; */
     overflow: hidden;
+    position: relative;
+    z-index: 99;
 }
 #part1{
     width: 100%;
@@ -254,7 +261,7 @@ html,body{
 .scroll1 h5{
     font-size: 12px;
     color: #fff;
-    font-family:Almarena Display,Almarena;
+    font-family: gilroy;
     font-weight: 500;
 }
 .scroll1 img{
@@ -279,7 +286,6 @@ html,body{
     transform: translateY(220%);
     font-size: 12px;
     color: #fff;
-    font-family:"Neue Montreal";
     font-family: gilroy;
     font-weight: 500;
     color: #000;
@@ -552,7 +558,7 @@ html,body{
     border-bottom: 1px solid #8b8b8b;
 }
 #part4 #rows .r1 .card{
-    opacity: 0;
+  opacity: 0;
     position: relative;
     z-index: 9999;
     width: 30vw;
@@ -635,7 +641,8 @@ html,body{
     width: fit-content;
 }
 #part6 #s3e2 h2{
-    font-family: Almarena Display,Almarena;
+  
+  font-family:gilroy;
     font-size: 1.5vw;
     font-weight: 500;
     color: #373738;
@@ -663,15 +670,17 @@ html,body{
 }
 
 #overlay{
+  pointer-events: none;
   width: 100%;
   height: 100vh;
   background-color: transparent;
 }
 
 #part7{
+  pointer-events:visible;
   position: fixed;
   bottom: 0;
-  z-index: -2;
+  z-index: 1;
     width: 100%;
     height: 100vh;
     background-color: #1c1c1d;

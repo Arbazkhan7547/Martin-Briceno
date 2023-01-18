@@ -176,7 +176,7 @@ gsap.to("#part2 #h1s h1,#part2 #h5 h5",{
     ease:Expo.easeInout,
     duration:.5
 })
-gsap.from("#part6 #h1s h1",{
+gsap.from("#h1s h1",{
     scrollTrigger:{
         trigger:"#part6",
        scroller:"body",
@@ -255,7 +255,7 @@ function move(){
         })
 
    })
-})
+  })
 }
 
 function swiper(){
@@ -285,10 +285,9 @@ gsap.to(sections, {
 
 
 
-  
+move();
 horizontal();
 swiper();
-move();
 frontpageAnimation();
 navbutton();
 textbutton();
