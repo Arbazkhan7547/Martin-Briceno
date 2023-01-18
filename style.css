@@ -20,11 +20,11 @@
 }
 @font-face{
   font-family:Almarena Display,Almarena;
-  src: url("./621a35b27f3078178900f91e_Almarena\ -\ Almarena\ Display\ Light.ttf");
+  src:url("./621a35b27f3078178900f91e_Almarena\ -\ Almarena\ Display\ Light.ttf");
   font-weight: 100;
 }
 @font-face{
-    font-family:Almarena Display,Almarena;
+    font-family:Almarena Display;
     src: url("./621a35b27f3078178900f91e_Almarena\ -\ Almarena\ Display\ Light.ttf");
     font-weight:  200;
 }
@@ -642,6 +642,7 @@ html,body{
 }
 #part6 #s3e2 h2{
   
+
   font-family:gilroy;
     font-size: 1.5vw;
     font-weight: 500;
@@ -677,7 +678,6 @@ html,body{
 }
 
 #part7{
-  pointer-events:visible;
   position: fixed;
   bottom: 0;
   z-index: 1;
@@ -762,6 +762,11 @@ html,body{
     font-weight: 500;
 
 }
+#overlay:hover{
+  background-color: red;
+}
+
+
 
 
 
